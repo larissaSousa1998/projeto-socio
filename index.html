@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Exemplo</title>
+
+</head>
+
+<body>
+    <div class="scroll">
+
+        <input type="radio" name="grupo" id="rd_Home" checked="true">
+        <input type="radio" name="grupo" id="rd_Sobre" >
+        <input type="radio" name="grupo" id="rd_Sobre2">
+        <input type="radio" name="grupo" id="rd_Produtos">
+        <input type="radio" name="grupo" id="rd_Servicos">
+        <input type="radio" name="grupo" id="rd_Contato">
+
+        <section class="sections">
+
+            <section class="galeria bloco" id="home">
+
+                <img class="foto" src="img/01.jpg" alt="">
+                <img class="foto" src="img/02.jpg" alt="">
+                <img class="foto" src="img/03.jpg" alt="">
+
+                <div class="texto-home">
+                <h1>Os melhores produtos para o seu lar</h1>
+                <h3>Tudo em produtos de limpeza você encontra aqui</h3>
+                <label class="btnhome1" >ENTRAR</label> <label class="btnhome2" for="rd_Sobre">SAIBA MAIS</label>
+            </div>
+            </section>
+
+            <section class="bloco" id="sobre">
+                <div class="txt-sobre">
+                    <h1>Sobre nós</h1>
+                </div>
+                    
+            </section>
+            <section class="bloco" id="produtos"></section>
+            <section class="bloco" id="servicos"></section>
+            <section class="bloco" id="contato"></section>
+        </section>
+
+        <div class="menu">
+            <div class="imglogo" id="imglog"></div>
+            <nav class="links">
+                <label for="rd_Home" id="lbl-home">HOME</label>
+                <label for="rd_Sobre" id="lbl-sobre">SOBRE</label>
+                <label for="rd_Produtos" id="lbl-produtos">PRODUTOS</label>
+                <label for="rd_Servicos" id="lbl-servicos">SERVIÇOS</label>
+                <label for="rd_Contato" id="lbl-contato">CONTATO</label>
+            </nav>
+            </div>
+
+    </div>
+
+
+    
+</body>
+</html>
