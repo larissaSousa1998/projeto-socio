@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/javascript.js"></script>
+    
     <title>Exemplo</title>
 
 </head>
@@ -33,13 +35,51 @@
             </div>
             </section>
 
-            <section class="bloco" id="sobre">
-                <div class="txt-sobre">
-                    <h1>Sobre nós</h1>
+            <section class="bloco-sobre" id="sobre">
+                <div class="txt-sobre"><h1>Quem somos?</h1></div>
+                <div class="maior">
+                <div class="sp-sobre">
+                <img src="img/goals.png" alt="" class="img-sobre"><h5>Fundada em 2010. A clarilimp tem a missão de oferecer os melhores produtos em limpeza com um preço abaixo do mercado tanto no atacado quanto no varejo.<h5>
                 </div>
-                    
+                <div class="sp-sobre">
+                <img src="img/goal.png" alt="" class="img-sobre"><h5>Visamos a longo prazo alcançar todo o público da zona leste de São Paulo, com o objetivo de sempre entregar produtos de alta qualidade.<h5>
+                </div>
+                <div class="sp-sobre">
+                <img src="img/development.png" alt="" class="img-sobre" ><h5>Nossos valores são baseados na confiança, respeito com o cliente e cumprimento dos prazos. Com a ajuda de nossos clientes acreditamos ir mais longe.</h5>
+                </div>
+            </div>
+
+            <div class="menor">
+                <img src="img/fundo-sobre.jpg" alt="" class="img-grande-sobre">
+            </div>
             </section>
-            <section class="bloco" id="produtos"></section>
+            <section class="bloco-sobre" id="produtos">
+                <div class="txt-sobre"><h1>Alguns de nossos produtos</h1></div>
+                
+                <select name="" id="selecaoproduto" class="select-produtos" onchange="painelproduto1()">
+                    <option value="alcool">Álcool</option>
+                    <option value="amaciante">Amaciante</option>
+                    <option value="detergente">Detergente</option>
+                    <option value="desinfetante">Desinfetante</option>
+                    <option value="limpezaleve">Limpeza leve</option>
+                    <option value="limpezaauto">Limpeza para auto</option>
+                    <option value="limpezapesada">Limpeza pesada</option>
+                    <option value="sabaoliquido">Sabão líquido</option>
+                    <option value="utensilios">Utensílios casa/limpeza</option>
+                    <option value="vassouras">Vassouras e rodos</option>
+                </select>
+
+                <div class="painel-produtos" id="painelprod">
+                    <div class="produto">Álcool perfumado Azul</div>
+                    <div class="produto">Álcool perfumado Rosa</div>
+                    <div class="produto">Álcool perfumado Verde</div>
+                    <div class="produto">Álcool perfumado Roxo</div>
+                    <div class="produto">Álcool em gel</div> 
+                    <div class="produto">Álcool 70%</div> 
+                </div>
+
+
+            </section>
             <section class="bloco" id="servicos"></section>
             <section class="bloco" id="contato"></section>
         </section>
@@ -61,3 +101,4 @@
     
 </body>
 </html>
+
